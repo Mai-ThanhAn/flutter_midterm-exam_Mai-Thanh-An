@@ -7,18 +7,17 @@ class AppColors {
   static const Color primaryText = Color(0xFF7B011E);
   static const Color secondaryText = Color(0xFFF5F1E6);
 
-  // Creat MaterialColor from themePrimary
-  Map<int, Color> colorShades = {
-    50: themePrimary.withOpacity(0.1),
-    100: themePrimary.withOpacity(0.2),
-    200: themePrimary.withOpacity(0.3),
-    300: themePrimary.withOpacity(0.4),
-    400: themePrimary.withOpacity(0.5),
-    500: themePrimary.withOpacity(0.6),
-    600: themePrimary.withOpacity(0.7),
-    700: themePrimary.withOpacity(0.8),
-    800: themePrimary.withOpacity(0.9),
-    900: themePrimary.withOpacity(1.0),
-  };
+  // Define a set of custom colors to use in the app [Exercise 2]
+  static const List<Color> customColors = [
+    Color(0xFF510A09),
+    Color(0xFF851C15),
+    Color(0xFFD83E38),
+    Color(0xFFD8A9A0),
+    Color(0xFFF79489),
+    Color(0xFFFADCD9),
+  ];
 
+  static Color getColorByIndex(int index, {double opacity = 1.0}) {
+    return customColors[index % customColors.length].withOpacity(opacity);
+  }
 }
