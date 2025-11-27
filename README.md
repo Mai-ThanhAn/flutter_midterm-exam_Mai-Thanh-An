@@ -3,6 +3,7 @@ Project description
 This is the midterm exam includes 5 exercises
 ## ii. Screenshots of my app
 This is a main screen of my app
+
 ![alt text](/assets/screenshots/image.png)
 ## iii. How to run the project
 You can run a project with debug mode at root folder
@@ -10,19 +11,25 @@ You can run a project with debug mode at root folder
 1. List View Exercise
 Create a scrollable list of contacts. Each contact must include a placeholder avatar image.
 ![alt text](/assets/screenshots/image-1.png)
-2. Grid View Exercise
+
+3. Grid View Exercise
 Build a Flutter screen that displays a gallery of 12 images or icons using both GridView types.
 Section 1: GridView.count()
 ![alt text](/assets/screenshots/image-5.png)
+
 Section 2: GridView.extent()
 ![alt text](/assets/screenshots/image-6.png)
-3. Shared Preferences Exercise
+
+5. Shared Preferences Exercise
 ![alt text](/assets/screenshots/image-2.png)
-4. Asynchronous Programming Exercise
+
+7. Asynchronous Programming Exercise
 ![alt text](/assets/screenshots/image-3.png)
-5. Isolate Exercises
+
+9. Isolate Exercises
 Challenge 1
 ![alt text](/assets/screenshots/image-4.png)
+
 Challenge 2
 ![alt text](/assets/screenshots/image-7.png)
 ## v. project architecture
