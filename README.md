@@ -10,28 +10,36 @@ You can run a project with debug mode at root folder
 ## iv. feature in my project
 1. List View Exercise
 Create a scrollable list of contacts. Each contact must include a placeholder avatar image.
+------------------------------
 ![alt text](/assets/screenshots/image-1.png)
-
+------------------------------
 3. Grid View Exercise
-Build a Flutter screen that displays a gallery of 12 images or icons using both GridView types.
-Section 1: GridView.count()
+## Build a Flutter screen that displays a gallery of 12 images or icons using both GridView types.
+## Section 1: GridView.count()
+
 ![alt text](/assets/screenshots/image-5.png)
 
-Section 2: GridView.extent()
+## Section 2: GridView.extent()
+------------------------------
 ![alt text](/assets/screenshots/image-6.png)
-
+------------------------------
 5. Shared Preferences Exercise
+------------------------------
 ![alt text](/assets/screenshots/image-2.png)
-
+------------------------------
 7. Asynchronous Programming Exercise
+------------------------------
 ![alt text](/assets/screenshots/image-3.png)
-
+------------------------------
 9. Isolate Exercises
-Challenge 1
+## Challenge 1
+------------------------------
 ![alt text](/assets/screenshots/image-4.png)
-
-Challenge 2
+------------------------------
+## Challenge 2
+------------------------------
 ![alt text](/assets/screenshots/image-7.png)
+------------------------------
 ## v. project architecture
 ```
 └── 📁lib
